@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 120%;
+    background-image :  url('image/Hopital.JPG');
+    background-size: cover;
+}
+.header {
+    width: 32%;
+    margin: 2% auto 0px;
+    color: white;
+    background: rgb(29, 199, 100);
+    text-align: center;
+    border: 1px solid red;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+form{
+    width: 30%;
+    margin: 0px auto;
+    padding: 23px;
+    border: 1px solid yellow;
+    background: rgba(10, 0, 0, 0.8);
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.5);
+}
+
+.input-group{
+    margin: 10px 0px 10px;
+}
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input{
+    height: 25px;
+    width: 93%;
+    margin: 5px 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px;
+    padding : 5px 15px 5px 15px;
+    margin : 5px 10px 10px 0px;
+    box-shadow : 0px 3px 3px 1px green;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: rgb(4, 54, 25);
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.error{
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid rgb(34, 0, 224);
+    color:rgb(224, 0, 0);
+    background: rgb(216, 235, 224);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.input-box {
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    padding-bottom : 5px;
+}
+
+.input-box input
+{
+    width: 100px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+
+::placeholder
+{
+    color: #ccc;
+}
+.fa
+{
+    margin-right : 10px;
+}
+.eye
+{
+    position: absolute;
+}
+
+#hide1 
+{
+    display: none;
+}
+
+.login-btn
+{
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}

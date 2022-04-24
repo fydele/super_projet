@@ -1,0 +1,24 @@
+<?php
+
+if ($_POST['ajouter']) {
+
+	$nom      = $_POST['nom'];
+	$nom      = $_POST['nom'];
+	$pren     = $_POST['prenom'];
+	$dateN    = $_POST['dateN'];
+	$sexe     = $_POST['sexe'];
+	$tel      = $_POST['tel'];
+	$cin      = $_POST['cin'];
+	$nbE      = $_POST['nbE'];
+	$fonction = $_POST['fonction'];
+	$dateE    = $_POST['dateE'];
+	$photo    = $_POST['photo'];
+
+	$sql = "INSERT INTO employe (nom,prenom,date_naiss,sexe,tel,cin,nbEnf,nom_fonct,date_engage,photo) values('$nom','$pren','$dateN','$sexe','$tel','$cin','$nbE','$fonction','$dateE','$photo')";
+	if (mysqli_query($con, $sql)) {
+		echo "Insertion reuissie";
+	} else {
+		echo 'Error';
+	}
+}
+?>
